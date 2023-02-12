@@ -298,8 +298,8 @@
             
               
                 
-                <a class="post-title-link" href="/2019/03/10/Android/" itemprop="url">
-                  Android-学习笔记
+                <a class="post-title-link" href="/2019/03/10/Android-音视频处理/" itemprop="url">
+                  Android-音视频处理
                 </a>
               
             
@@ -342,8 +342,8 @@
             
               <span class="post-comments-count">
                 &nbsp; | &nbsp;
-                <a href="/2019/03/10/Android/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2019/03/10/Android/" itemprop="commentsCount"></span>
+                <a href="/2019/03/10/Android-音视频处理/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2019/03/10/Android-音视频处理/" itemprop="commentsCount"></span>
                 </a>
               </span>
             
@@ -368,49 +368,52 @@
       
         
           
-            <h1 id="学习路径"><a href="#学习路径" class="headerlink" title="学习路径"></a>学习路径</h1><ol>
-<li><a href="https://github.com/blindmonk/Android-Link" target="_blank" rel="noopener">Android 成为资深研发之路</a></li>
+            <h1 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h1><p><a href="https://www.imooc.com/learn/959" target="_blank" rel="noopener">移动端音频视频入门</a><br><a href="https://www.imooc.com/learn/923" target="_blank" rel="noopener">Android互动直播APP开发入门</a></p>
+<h1 id="架构图"><a href="#架构图" class="headerlink" title="架构图"></a>架构图</h1><p><img src="/2019/03/10/Android-音视频处理/Android-音视频处理\实时互动直播架构.png" alt="实时互动直播架构">  </p>
+<p><img src="/2019/03/10/Android-音视频处理/Android-音视频处理\泛娱乐化直播架构.png" alt="泛娱乐化直播架构"></p>
+<h1 id="CDN网络"><a href="#CDN网络" class="headerlink" title="CDN网络"></a>CDN网络</h1><h2 id="来历"><a href="#来历" class="headerlink" title="来历"></a>来历</h2><p>解决用户访问网络资源慢产生的技术。</p>
+<h3 id="产生原因"><a href="#产生原因" class="headerlink" title="产生原因"></a>产生原因</h3><ol>
+<li>链路过长导致，任何节点等出现问题，用户体验效果很差</li>
+<li>人为因素，运营商之间切割</li>
 </ol>
-<h1 id="RXJava"><a href="#RXJava" class="headerlink" title="RXJava"></a>RXJava</h1><h2 id="学习链接"><a href="#学习链接" class="headerlink" title="学习链接"></a>学习链接</h2><h3 id="文章"><a href="#文章" class="headerlink" title="文章"></a>文章</h3><p><a href="http://blog.inching.org/categories/RxJava/" target="_blank" rel="noopener">feiq’s Blog</a><br><a href="https://gank.io/post/560e15be2dca930e00da1083" target="_blank" rel="noopener">给 Android 开发者的 RxJava 详解</a><br><a href="https://androidwave.com/rxbus-implementing-event-bus-with-rxjava/" target="_blank" rel="noopener">RxBus – Implementing event bus with RxJava</a><br><a href="https://segmentfault.com/a/1190000016460847" target="_blank" rel="noopener">Android常用之Butterknife使用详解</a></p>
-<h3 id="视频"><a href="#视频" class="headerlink" title="视频"></a>视频</h3><p><a href="https://www.imooc.com/learn/877" target="_blank" rel="noopener">RxJava与RxAndroid基础入门</a></p>
-<h3 id="Github"><a href="#Github" class="headerlink" title="Github"></a>Github</h3><p><a href="https://github.com/ReactiveX/RxAndroid" target="_blank" rel="noopener">ReactiveX/RxAndroid</a><br><a href="https://github.com/rengwuxian/RxJavaSamples" target="_blank" rel="noopener">rengwuxian/RxJavaSamples</a><br><a href="https://github.com/JakeWharton/RxBinding" target="_blank" rel="noopener">JakeWharton/RxBinding</a><br><a href="https://github.com/JakeWharton/butterknife" target="_blank" rel="noopener">JakeWharton/butterknife</a></p>
-<h3 id="学习笔记"><a href="#学习笔记" class="headerlink" title="学习笔记"></a>学习笔记</h3><ol>
-<li>flatMap() 的原理是这样的：<ol>
-<li>使用传入的事件对象创建一个 Observable 对象；</li>
-<li>并不发送这个 Observable, 而是将它激活，于是它开始发送事件；</li>
-<li>每一个创建出来的 Observable 发送的事件，都被汇入同一个 Observable ，而这个 Observable 负责将这些事件统一交给 Subscriber 的回调方法。</li>
+<h2 id="CDN构成"><a href="#CDN构成" class="headerlink" title="CDN构成"></a>CDN构成</h2><ol>
+<li>边缘节点：用户从边缘节点上获取数据</li>
+<li>二级节点：主干网节点，主要用于缓存，减轻源站压力</li>
+<li>源站：CP（内容提供方）将内容放到源站</li>
 </ol>
+<h2 id="CDN网络-1"><a href="#CDN网络-1" class="headerlink" title="CDN网络"></a>CDN网络</h2><p><img src="/2019/03/10/Android-音视频处理/Android-音视频处理\CDN网络.png" alt="CDN网络"></p>
+<ol>
+<li>传统CDN，追求热点，拉取方式</li>
+<li>音视频CDN，源push主干，边缘pull主干</li>
+</ol>
+<h2 id="搭建直播系统"><a href="#搭建直播系统" class="headerlink" title="搭建直播系统"></a>搭建直播系统</h2><ol>
+<li>ffmpeg</li>
+<li>ffplay</li>
+<li>flashplayer（RTMP协议解析）</li>
+</ol>
+<h3 id="搭建流媒体服务"><a href="#搭建流媒体服务" class="headerlink" title="搭建流媒体服务"></a>搭建流媒体服务</h3><ol>
+<li>准备流媒体服务器（linux或MAC）</li>
+<li>编译并安装Nginx</li>
+<li>配置RTMP服务并启动Nginx服务</li>
+</ol>
+<h3 id="ffmpeg命令"><a href="#ffmpeg命令" class="headerlink" title="ffmpeg命令"></a>ffmpeg命令</h3><ol>
+<li>推流：<br> <code>ffmpeg -re -i out.mp4 -c copy -f flv rtmp://server/live/streamName</code></li>
+<li><p>拉流：<br><code>ffmpeg -i rtmp://server/live/streamName -c copy dump.flv</code></p>
 </li>
-<li></li>
-</ol>
-<h1 id="应用服务器"><a href="#应用服务器" class="headerlink" title="应用服务器"></a>应用服务器</h1><p><a href="https://leancloud.cn/dashboard/login.html#/signin" target="_blank" rel="noopener">LeanCloud</a><br><a href="https://www.bmob.cn/" target="_blank" rel="noopener">Bmob</a>  </p>
-<h1 id="Gson使用"><a href="#Gson使用" class="headerlink" title="Gson使用"></a>Gson使用</h1><p><a href="https://my.oschina.net/orgsky/blog/368768" target="_blank" rel="noopener">GSON序列化时排除字段的几种方式</a></p>
-<h1 id="《Android基础视频课程》"><a href="#《Android基础视频课程》" class="headerlink" title="《Android基础视频课程》"></a>《Android基础视频课程》</h1><ol>
-<li>存储方式： sharepreference(系统配置信息)轻量键值存储基本类型、Files(应用程序私有)、sqlite(数据库)、NetWork（通过网络存储和获取数据）。</li>
-</ol>
-<h1 id="《Android必学-AsyncTask基础》"><a href="#《Android必学-AsyncTask基础》" class="headerlink" title="《Android必学-AsyncTask基础》"></a>《Android必学-AsyncTask基础》</h1><ol>
-<li>子线程更新UI</li>
-<li>封装、简化异步操作</li>
-</ol>
-<h1 id="《Android必学-异步加载》"><a href="#《Android必学-异步加载》" class="headerlink" title="《Android必学-异步加载》"></a>《Android必学-异步加载》</h1><h2 id="课程地址"><a href="#课程地址" class="headerlink" title="课程地址"></a>课程地址</h2><p><a href="https://www.imooc.com/learn/406" target="_blank" rel="noopener">Android必学-异步加载</a></p>
-<h2 id="学习笔记-1"><a href="#学习笔记-1" class="headerlink" title="学习笔记"></a>学习笔记</h2><ol>
-<li>子线程更新UI</li>
-<li></li>
-</ol>
-<h1 id="《深入理解Android：卷1》"><a href="#《深入理解Android：卷1》" class="headerlink" title="《深入理解Android：卷1》"></a>《深入理解Android：卷1》</h1><h2 id="JNI"><a href="#JNI" class="headerlink" title="JNI"></a>JNI</h2><h3 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h3><ol>
-<li>JNI，是Java Native Interface的缩写，中文为Java本地调用。JNI是一种技术</li>
-<li>JNI将java与native紧密连接起来，使java能够调用native函数，native能够调用java函数</li>
-<li>JNI必须实现为动态库的形式，这样java虚拟机才能加载它并调用它的函数。</li>
-<li>Native语言中“.”有特殊的意义，所以JNI需要把java函数中的”.”换成”_”。</li>
-<li>JNI注册：将Java层的native函数和JNI层对应的实现函数关联起来。</li>
-<li>JNI注册两种方法<br>a. 静态注册：根据函数名来找对应的JNI函数。需要依照一定规则生产函数，增加编译工作、函数名长、初次调用建立关联影响效率<br>b. 动态注册：JNI中实现JNI_OnLoad</li>
-<li>JNIENV与线程相关，OnLoad中JNIVM是独一份的，可以通过JNIVM获取当前线程的JNIENV<ol>
-<li>调用JavaVM的AttachCurrentThread函数，就可得到这个线程的JNIEnv结构体。这样就可以在后台线程中回调Java函数了</li>
-<li>另外，后台线程退出前，需要调用JavaVM的DetachCurrentThread函数来释放对应的资源。</li>
-</ol>
+<li><p>flash播放器<br><code>http://bbs.chinaffmpeg.com/1.swf</code></p>
 </li>
 </ol>
-<h2 id="深入理解init"><a href="#深入理解init" class="headerlink" title="深入理解init"></a>深入理解init</h2>
+<h1 id="音频入门"><a href="#音频入门" class="headerlink" title="音频入门"></a>音频入门</h1><h2 id="声音三要素"><a href="#声音三要素" class="headerlink" title="声音三要素"></a>声音三要素</h2><ol>
+<li>音调：就是音频，高音区和低音区</li>
+<li>音量：声音振动的幅度</li>
+<li>音色：与材质有关，本质就是谐波<br><img src="/2019/03/10/Android-音视频处理/Android-音视频处理\音色.png" alt="音色"><h2 id="量化和编码"><a href="#量化和编码" class="headerlink" title="量化和编码"></a>量化和编码</h2><h3 id="音频量化过程"><a href="#音频量化过程" class="headerlink" title="音频量化过程"></a>音频量化过程</h3><img src="/2019/03/10/Android-音视频处理/Android-音视频处理\音频量化过程.png" alt="音频量化过程"></li>
+</ol>
+<h3 id="量化基本概念"><a href="#量化基本概念" class="headerlink" title="量化基本概念"></a>量化基本概念</h3><ol>
+<li>采样大小：一个采样用多少bit存放。常用16bit</li>
+<li>采样率：8k、16k、32k、44.1k、48k</li>
+<li>声道数：单声道、双声道、多声道<h3 id="码率计算"><a href="#码率计算" class="headerlink" title="码率计算"></a>码率计算</h3>采样率 <em> 采样大小 </em> 声道数</li>
+</ol>
+
           
         
       

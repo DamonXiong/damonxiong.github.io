@@ -955,13 +955,13 @@ conda deactivate tf-cpu
 <li>性能：评价所完成任务质量的指标。</li>
 </ol>
 <h2 id="基础"><a href="#基础" class="headerlink" title="基础"></a>基础</h2><h3 id="监督学习经典模型"><a href="#监督学习经典模型" class="headerlink" title="监督学习经典模型"></a>监督学习经典模型</h3><ol>
-<li><img src="/2019/04/28/machineLearning/machineLearning\监督学习基本架构和流程.png" alt="监督学习基本架构和流程"></li>
+<li><img src="/2019/04/28/machineLearning/监督学习基本架构和流程.png" alt="监督学习基本架构和流程"></li>
 </ol>
 <h1 id="《机器学习算法基础》–覃秉丰"><a href="#《机器学习算法基础》–覃秉丰" class="headerlink" title="《机器学习算法基础》–覃秉丰"></a>《机器学习算法基础》–覃秉丰</h1><h2 id="课程链接"><a href="#课程链接" class="headerlink" title="课程链接"></a>课程链接</h2><p><a href="https://edu.51cto.com/course/16585.html" target="_blank" rel="noopener">机器学习算法基础</a></p>
 <h2 id="课程笔记"><a href="#课程笔记" class="headerlink" title="课程笔记"></a>课程笔记</h2><ol>
-<li>知识框架<br><img src="/2019/04/28/machineLearning/machineLearning\机器学习知识框架.png" alt="知识框架"></li>
+<li>知识框架<br><img src="/2019/04/28/machineLearning/机器学习知识框架.png" alt="知识框架"></li>
 <li>Anaconda安装Python及部分库</li>
-<li><img src="/2019/04/28/machineLearning/machineLearning\训练集-验证集-测试集.png" alt="训练集-验证集-测试集"></li>
+<li><img src="/2019/04/28/machineLearning/训练集-验证集-测试集.png" alt="训练集-验证集-测试集"></li>
 <li>学习方式：<ol>
 <li>监督学习：用来训练带有标签的数据集</li>
 <li>无监督学习：用来训练没有标签的数据集</li>
@@ -975,25 +975,25 @@ conda deactivate tf-cpu
 </ol>
 </li>
 <li>一元线性回归<ol>
-<li><img src="/2019/04/28/machineLearning/machineLearning\一元线性回归.png" alt="训练集-验证集-测试集"></li>
+<li><img src="/2019/04/28/machineLearning/一元线性回归.png" alt="训练集-验证集-测试集"></li>
 </ol>
 </li>
 <li>代价函数（Cost Function）<ol>
-<li><img src="/2019/04/28/machineLearning/machineLearning\最小二乘法.png" alt="最小二乘法"></li>
-<li><img src="/2019/04/28/machineLearning/machineLearning\相关系数.png" alt="相关系数"></li>
-<li><img src="/2019/04/28/machineLearning/machineLearning\决定系数.png" alt="决定系数"></li>
+<li><img src="/2019/04/28/machineLearning/最小二乘法.png" alt="最小二乘法"></li>
+<li><img src="/2019/04/28/machineLearning/相关系数.png" alt="相关系数"></li>
+<li><img src="/2019/04/28/machineLearning/决定系数.png" alt="决定系数"></li>
 </ol>
 </li>
 <li>梯度下降法（优化算法）<ol>
-<li><img src="/2019/04/28/machineLearning/machineLearning\梯度下降法.png" alt="梯度下降法"></li>
-<li><img src="/2019/04/28/machineLearning/machineLearning\局部最小值问题.png" alt="局部最小值问题"></li>
-<li><img src="/2019/04/28/machineLearning/machineLearning\梯度下降法求线性回归.png" alt="梯度下降法求线性回归"></li>
-<li><img src="/2019/04/28/machineLearning/machineLearning\梯度下降法求线性回归2.png" alt="梯度下降法求线性回归2"></li>
+<li><img src="/2019/04/28/machineLearning/梯度下降法.png" alt="梯度下降法"></li>
+<li><img src="/2019/04/28/machineLearning/局部最小值问题.png" alt="局部最小值问题"></li>
+<li><img src="/2019/04/28/machineLearning/梯度下降法求线性回归.png" alt="梯度下降法求线性回归"></li>
+<li><img src="/2019/04/28/machineLearning/梯度下降法求线性回归2.png" alt="梯度下降法求线性回归2"></li>
 <li>非凸函数使用梯度下降法可能只能获取局部最小值，线性回归是凸函数，可以使用梯度下降法</li>
 </ol>
 </li>
 <li>多元线性回归<ol>
-<li><img src="/2019/04/28/machineLearning/machineLearning\多元线性回归模型.png" alt="多元线性回归模型"></li>
+<li><img src="/2019/04/28/machineLearning/多元线性回归模型.png" alt="多元线性回归模型"></li>
 </ol>
 </li>
 <li>多项式回归<ol>
@@ -1001,51 +1001,51 @@ conda deactivate tf-cpu
 </ol>
 </li>
 <li>标准方程法<ol>
-<li><img src="/2019/04/28/machineLearning/machineLearning\标准方程法.png" alt="标准方程法"></li>
-<li><img src="/2019/04/28/machineLearning/machineLearning\标准方程法2.png" alt="标准方程法"></li>
-<li><img src="/2019/04/28/machineLearning/machineLearning\矩阵不可逆情况.png" alt="矩阵不可逆情况"></li>
-<li><img src="/2019/04/28/machineLearning/machineLearning\梯度下降对比标准方程.png" alt="梯度下降对比标准方程"></li>
+<li><img src="/2019/04/28/machineLearning/标准方程法.png" alt="标准方程法"></li>
+<li><img src="/2019/04/28/machineLearning/标准方程法2.png" alt="标准方程法"></li>
+<li><img src="/2019/04/28/machineLearning/矩阵不可逆情况.png" alt="矩阵不可逆情况"></li>
+<li><img src="/2019/04/28/machineLearning/梯度下降对比标准方程.png" alt="梯度下降对比标准方程"></li>
 </ol>
 </li>
 <li>特征缩放<ol>
-<li><img src="/2019/04/28/machineLearning/machineLearning\数据归一化.png" alt="数据归一化"></li>
-<li><img src="/2019/04/28/machineLearning/machineLearning\均值标准化.png" alt="均值标准化"></li>
+<li><img src="/2019/04/28/machineLearning/数据归一化.png" alt="数据归一化"></li>
+<li><img src="/2019/04/28/machineLearning/均值标准化.png" alt="均值标准化"></li>
 </ol>
 </li>
 <li>交叉验证法<ol>
-<li><img src="/2019/04/28/machineLearning/machineLearning\交叉验证法.png" alt="交叉验证法"></li>
+<li><img src="/2019/04/28/machineLearning/交叉验证法.png" alt="交叉验证法"></li>
 </ol>
 </li>
 <li>拟合<ol>
-<li><img src="/2019/04/28/machineLearning/machineLearning\拟合.png" alt="拟合"></li>
-<li><img src="/2019/04/28/machineLearning/machineLearning\防止过拟合.png" alt="防止过拟合"></li>
-<li><img src="/2019/04/28/machineLearning/machineLearning\正则化.png" alt="正则化"></li>
+<li><img src="/2019/04/28/machineLearning/拟合.png" alt="拟合"></li>
+<li><img src="/2019/04/28/machineLearning/防止过拟合.png" alt="防止过拟合"></li>
+<li><img src="/2019/04/28/machineLearning/正则化.png" alt="正则化"></li>
 </ol>
 </li>
 <li>岭回归<ol>
-<li><img src="/2019/04/28/machineLearning/machineLearning\岭回归.png" alt="岭回归"></li>
-<li><img src="/2019/04/28/machineLearning/machineLearning\岭回归2.png" alt="岭回归"></li>
+<li><img src="/2019/04/28/machineLearning/岭回归.png" alt="岭回归"></li>
+<li><img src="/2019/04/28/machineLearning/岭回归2.png" alt="岭回归"></li>
 </ol>
 </li>
 <li>LASSO<ol>
-<li><img src="/2019/04/28/machineLearning/machineLearning\LASSO.png" alt="LASSO"></li>
-<li><img src="/2019/04/28/machineLearning/machineLearning\LASSO与岭回归.png" alt="LASSO与岭回归"></li>
-<li><img src="/2019/04/28/machineLearning/machineLearning\LASSO与岭回归2.png" alt="LASSO与岭回归2"></li>
-<li><img src="/2019/04/28/machineLearning/machineLearning\LASSO与岭回归3.png" alt="LASSO与岭回归3"></li>
+<li><img src="/2019/04/28/machineLearning/LASSO.png" alt="LASSO"></li>
+<li><img src="/2019/04/28/machineLearning/LASSO与岭回归.png" alt="LASSO与岭回归"></li>
+<li><img src="/2019/04/28/machineLearning/LASSO与岭回归2.png" alt="LASSO与岭回归2"></li>
+<li><img src="/2019/04/28/machineLearning/LASSO与岭回归3.png" alt="LASSO与岭回归3"></li>
 </ol>
 </li>
 <li>弹性网-2005年提出<ol>
-<li><img src="/2019/04/28/machineLearning/machineLearning\弹性网.png" alt="弹性网"></li>
-<li><img src="/2019/04/28/machineLearning/machineLearning\弹性网2.png" alt="弹性网正则式"></li>
+<li><img src="/2019/04/28/machineLearning/弹性网.png" alt="弹性网"></li>
+<li><img src="/2019/04/28/machineLearning/弹性网2.png" alt="弹性网正则式"></li>
 <li>结合岭回归和LASSO</li>
 </ol>
 </li>
 </ol>
 <h1 id="《Python3入门机器学习经典算法与应用》–慕课网"><a href="#《Python3入门机器学习经典算法与应用》–慕课网" class="headerlink" title="《Python3入门机器学习经典算法与应用》–慕课网"></a>《Python3入门机器学习经典算法与应用》–慕课网</h1><h2 id="课程摘要"><a href="#课程摘要" class="headerlink" title="课程摘要"></a>课程摘要</h2><h3 id="简介-1"><a href="#简介-1" class="headerlink" title="简介"></a>简介</h3><ol>
-<li><img src="/2019/04/28/machineLearning/machineLearning\机器学习算法.png" alt="弹性网正则式"></li>
-<li><img src="/2019/04/28/machineLearning/machineLearning\机器学习学习注意点.png" alt="机器学习学习注意点"><h3 id="第2章-机器学习基础"><a href="#第2章-机器学习基础" class="headerlink" title="第2章 机器学习基础"></a>第2章 机器学习基础</h3></li>
+<li><img src="/2019/04/28/machineLearning/机器学习算法.png" alt="弹性网正则式"></li>
+<li><img src="/2019/04/28/machineLearning/机器学习学习注意点.png" alt="机器学习学习注意点"><h3 id="第2章-机器学习基础"><a href="#第2章-机器学习基础" class="headerlink" title="第2章 机器学习基础"></a>第2章 机器学习基础</h3></li>
 <li>大写字母代表矩阵，小写代表向量</li>
-<li><img src="/2019/04/28/machineLearning/machineLearning\数据.png" alt="数据"></li>
+<li><img src="/2019/04/28/machineLearning/数据.png" alt="数据"></li>
 <li>特征向量一般表征为列向量。行向量转置为列向量</li>
 <li>图像，每一个像素点都是特征。特征可以抽象。</li>
 <li>二分类和多分类：结果一个类别。</li>
@@ -1166,68 +1166,6 @@ conda deactivate tf-cpu
     </entry>
     
     <entry>
-      <title><![CDATA[Android-学习笔记]]></title>
-      <url>http://damonxiong.github.io/2019/03/10/Android/</url>
-      <content type="html"><![CDATA[<h1 id="学习路径"><a href="#学习路径" class="headerlink" title="学习路径"></a>学习路径</h1><ol>
-<li><a href="https://github.com/blindmonk/Android-Link" target="_blank" rel="noopener">Android 成为资深研发之路</a></li>
-</ol>
-<h1 id="RXJava"><a href="#RXJava" class="headerlink" title="RXJava"></a>RXJava</h1><h2 id="学习链接"><a href="#学习链接" class="headerlink" title="学习链接"></a>学习链接</h2><h3 id="文章"><a href="#文章" class="headerlink" title="文章"></a>文章</h3><p><a href="http://blog.inching.org/categories/RxJava/" target="_blank" rel="noopener">feiq’s Blog</a><br><a href="https://gank.io/post/560e15be2dca930e00da1083" target="_blank" rel="noopener">给 Android 开发者的 RxJava 详解</a><br><a href="https://androidwave.com/rxbus-implementing-event-bus-with-rxjava/" target="_blank" rel="noopener">RxBus – Implementing event bus with RxJava</a><br><a href="https://segmentfault.com/a/1190000016460847" target="_blank" rel="noopener">Android常用之Butterknife使用详解</a></p>
-<h3 id="视频"><a href="#视频" class="headerlink" title="视频"></a>视频</h3><p><a href="https://www.imooc.com/learn/877" target="_blank" rel="noopener">RxJava与RxAndroid基础入门</a></p>
-<h3 id="Github"><a href="#Github" class="headerlink" title="Github"></a>Github</h3><p><a href="https://github.com/ReactiveX/RxAndroid" target="_blank" rel="noopener">ReactiveX/RxAndroid</a><br><a href="https://github.com/rengwuxian/RxJavaSamples" target="_blank" rel="noopener">rengwuxian/RxJavaSamples</a><br><a href="https://github.com/JakeWharton/RxBinding" target="_blank" rel="noopener">JakeWharton/RxBinding</a><br><a href="https://github.com/JakeWharton/butterknife" target="_blank" rel="noopener">JakeWharton/butterknife</a></p>
-<h3 id="学习笔记"><a href="#学习笔记" class="headerlink" title="学习笔记"></a>学习笔记</h3><ol>
-<li>flatMap() 的原理是这样的：<ol>
-<li>使用传入的事件对象创建一个 Observable 对象；</li>
-<li>并不发送这个 Observable, 而是将它激活，于是它开始发送事件；</li>
-<li>每一个创建出来的 Observable 发送的事件，都被汇入同一个 Observable ，而这个 Observable 负责将这些事件统一交给 Subscriber 的回调方法。</li>
-</ol>
-</li>
-<li></li>
-</ol>
-<h1 id="应用服务器"><a href="#应用服务器" class="headerlink" title="应用服务器"></a>应用服务器</h1><p><a href="https://leancloud.cn/dashboard/login.html#/signin" target="_blank" rel="noopener">LeanCloud</a><br><a href="https://www.bmob.cn/" target="_blank" rel="noopener">Bmob</a>  </p>
-<h1 id="Gson使用"><a href="#Gson使用" class="headerlink" title="Gson使用"></a>Gson使用</h1><p><a href="https://my.oschina.net/orgsky/blog/368768" target="_blank" rel="noopener">GSON序列化时排除字段的几种方式</a></p>
-<h1 id="《Android基础视频课程》"><a href="#《Android基础视频课程》" class="headerlink" title="《Android基础视频课程》"></a>《Android基础视频课程》</h1><ol>
-<li>存储方式： sharepreference(系统配置信息)轻量键值存储基本类型、Files(应用程序私有)、sqlite(数据库)、NetWork（通过网络存储和获取数据）。</li>
-</ol>
-<h1 id="《Android必学-AsyncTask基础》"><a href="#《Android必学-AsyncTask基础》" class="headerlink" title="《Android必学-AsyncTask基础》"></a>《Android必学-AsyncTask基础》</h1><ol>
-<li>子线程更新UI</li>
-<li>封装、简化异步操作</li>
-</ol>
-<h1 id="《Android必学-异步加载》"><a href="#《Android必学-异步加载》" class="headerlink" title="《Android必学-异步加载》"></a>《Android必学-异步加载》</h1><h2 id="课程地址"><a href="#课程地址" class="headerlink" title="课程地址"></a>课程地址</h2><p><a href="https://www.imooc.com/learn/406" target="_blank" rel="noopener">Android必学-异步加载</a></p>
-<h2 id="学习笔记-1"><a href="#学习笔记-1" class="headerlink" title="学习笔记"></a>学习笔记</h2><ol>
-<li>子线程更新UI</li>
-<li></li>
-</ol>
-<h1 id="《深入理解Android：卷1》"><a href="#《深入理解Android：卷1》" class="headerlink" title="《深入理解Android：卷1》"></a>《深入理解Android：卷1》</h1><h2 id="JNI"><a href="#JNI" class="headerlink" title="JNI"></a>JNI</h2><h3 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h3><ol>
-<li>JNI，是Java Native Interface的缩写，中文为Java本地调用。JNI是一种技术</li>
-<li>JNI将java与native紧密连接起来，使java能够调用native函数，native能够调用java函数</li>
-<li>JNI必须实现为动态库的形式，这样java虚拟机才能加载它并调用它的函数。</li>
-<li>Native语言中“.”有特殊的意义，所以JNI需要把java函数中的”.”换成”_”。</li>
-<li>JNI注册：将Java层的native函数和JNI层对应的实现函数关联起来。</li>
-<li>JNI注册两种方法<br>a. 静态注册：根据函数名来找对应的JNI函数。需要依照一定规则生产函数，增加编译工作、函数名长、初次调用建立关联影响效率<br>b. 动态注册：JNI中实现JNI_OnLoad</li>
-<li>JNIENV与线程相关，OnLoad中JNIVM是独一份的，可以通过JNIVM获取当前线程的JNIENV<ol>
-<li>调用JavaVM的AttachCurrentThread函数，就可得到这个线程的JNIEnv结构体。这样就可以在后台线程中回调Java函数了</li>
-<li>另外，后台线程退出前，需要调用JavaVM的DetachCurrentThread函数来释放对应的资源。</li>
-</ol>
-</li>
-</ol>
-<h2 id="深入理解init"><a href="#深入理解init" class="headerlink" title="深入理解init"></a>深入理解init</h2>]]></content>
-      
-        <categories>
-            
-            <category> 技术笔记 </category>
-            
-        </categories>
-        
-        
-        <tags>
-            
-            <tag> Android </tag>
-            
-        </tags>
-        
-    </entry>
-    
-    <entry>
       <title><![CDATA[Android-音视频处理]]></title>
       <url>http://damonxiong.github.io/2019/03/10/Android-%E9%9F%B3%E8%A7%86%E9%A2%91%E5%A4%84%E7%90%86/</url>
       <content type="html"><![CDATA[<h1 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h1><p><a href="https://www.imooc.com/learn/959" target="_blank" rel="noopener">移动端音频视频入门</a><br><a href="https://www.imooc.com/learn/923" target="_blank" rel="noopener">Android互动直播APP开发入门</a></p>
@@ -1289,6 +1227,68 @@ conda deactivate tf-cpu
             <tag> Android </tag>
             
             <tag> 音视频 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Android-学习笔记]]></title>
+      <url>http://damonxiong.github.io/2019/03/10/Android/</url>
+      <content type="html"><![CDATA[<h1 id="学习路径"><a href="#学习路径" class="headerlink" title="学习路径"></a>学习路径</h1><ol>
+<li><a href="https://github.com/blindmonk/Android-Link" target="_blank" rel="noopener">Android 成为资深研发之路</a></li>
+</ol>
+<h1 id="RXJava"><a href="#RXJava" class="headerlink" title="RXJava"></a>RXJava</h1><h2 id="学习链接"><a href="#学习链接" class="headerlink" title="学习链接"></a>学习链接</h2><h3 id="文章"><a href="#文章" class="headerlink" title="文章"></a>文章</h3><p><a href="http://blog.inching.org/categories/RxJava/" target="_blank" rel="noopener">feiq’s Blog</a><br><a href="https://gank.io/post/560e15be2dca930e00da1083" target="_blank" rel="noopener">给 Android 开发者的 RxJava 详解</a><br><a href="https://androidwave.com/rxbus-implementing-event-bus-with-rxjava/" target="_blank" rel="noopener">RxBus – Implementing event bus with RxJava</a><br><a href="https://segmentfault.com/a/1190000016460847" target="_blank" rel="noopener">Android常用之Butterknife使用详解</a></p>
+<h3 id="视频"><a href="#视频" class="headerlink" title="视频"></a>视频</h3><p><a href="https://www.imooc.com/learn/877" target="_blank" rel="noopener">RxJava与RxAndroid基础入门</a></p>
+<h3 id="Github"><a href="#Github" class="headerlink" title="Github"></a>Github</h3><p><a href="https://github.com/ReactiveX/RxAndroid" target="_blank" rel="noopener">ReactiveX/RxAndroid</a><br><a href="https://github.com/rengwuxian/RxJavaSamples" target="_blank" rel="noopener">rengwuxian/RxJavaSamples</a><br><a href="https://github.com/JakeWharton/RxBinding" target="_blank" rel="noopener">JakeWharton/RxBinding</a><br><a href="https://github.com/JakeWharton/butterknife" target="_blank" rel="noopener">JakeWharton/butterknife</a></p>
+<h3 id="学习笔记"><a href="#学习笔记" class="headerlink" title="学习笔记"></a>学习笔记</h3><ol>
+<li>flatMap() 的原理是这样的：<ol>
+<li>使用传入的事件对象创建一个 Observable 对象；</li>
+<li>并不发送这个 Observable, 而是将它激活，于是它开始发送事件；</li>
+<li>每一个创建出来的 Observable 发送的事件，都被汇入同一个 Observable ，而这个 Observable 负责将这些事件统一交给 Subscriber 的回调方法。</li>
+</ol>
+</li>
+<li></li>
+</ol>
+<h1 id="应用服务器"><a href="#应用服务器" class="headerlink" title="应用服务器"></a>应用服务器</h1><p><a href="https://leancloud.cn/dashboard/login.html#/signin" target="_blank" rel="noopener">LeanCloud</a><br><a href="https://www.bmob.cn/" target="_blank" rel="noopener">Bmob</a>  </p>
+<h1 id="Gson使用"><a href="#Gson使用" class="headerlink" title="Gson使用"></a>Gson使用</h1><p><a href="https://my.oschina.net/orgsky/blog/368768" target="_blank" rel="noopener">GSON序列化时排除字段的几种方式</a></p>
+<h1 id="《Android基础视频课程》"><a href="#《Android基础视频课程》" class="headerlink" title="《Android基础视频课程》"></a>《Android基础视频课程》</h1><ol>
+<li>存储方式： sharepreference(系统配置信息)轻量键值存储基本类型、Files(应用程序私有)、sqlite(数据库)、NetWork（通过网络存储和获取数据）。</li>
+</ol>
+<h1 id="《Android必学-AsyncTask基础》"><a href="#《Android必学-AsyncTask基础》" class="headerlink" title="《Android必学-AsyncTask基础》"></a>《Android必学-AsyncTask基础》</h1><ol>
+<li>子线程更新UI</li>
+<li>封装、简化异步操作</li>
+</ol>
+<h1 id="《Android必学-异步加载》"><a href="#《Android必学-异步加载》" class="headerlink" title="《Android必学-异步加载》"></a>《Android必学-异步加载》</h1><h2 id="课程地址"><a href="#课程地址" class="headerlink" title="课程地址"></a>课程地址</h2><p><a href="https://www.imooc.com/learn/406" target="_blank" rel="noopener">Android必学-异步加载</a></p>
+<h2 id="学习笔记-1"><a href="#学习笔记-1" class="headerlink" title="学习笔记"></a>学习笔记</h2><ol>
+<li>子线程更新UI</li>
+<li></li>
+</ol>
+<h1 id="《深入理解Android：卷1》"><a href="#《深入理解Android：卷1》" class="headerlink" title="《深入理解Android：卷1》"></a>《深入理解Android：卷1》</h1><h2 id="JNI"><a href="#JNI" class="headerlink" title="JNI"></a>JNI</h2><h3 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h3><ol>
+<li>JNI，是Java Native Interface的缩写，中文为Java本地调用。JNI是一种技术</li>
+<li>JNI将java与native紧密连接起来，使java能够调用native函数，native能够调用java函数</li>
+<li>JNI必须实现为动态库的形式，这样java虚拟机才能加载它并调用它的函数。</li>
+<li>Native语言中“.”有特殊的意义，所以JNI需要把java函数中的”.”换成”_”。</li>
+<li>JNI注册：将Java层的native函数和JNI层对应的实现函数关联起来。</li>
+<li>JNI注册两种方法<br>a. 静态注册：根据函数名来找对应的JNI函数。需要依照一定规则生产函数，增加编译工作、函数名长、初次调用建立关联影响效率<br>b. 动态注册：JNI中实现JNI_OnLoad</li>
+<li>JNIENV与线程相关，OnLoad中JNIVM是独一份的，可以通过JNIVM获取当前线程的JNIENV<ol>
+<li>调用JavaVM的AttachCurrentThread函数，就可得到这个线程的JNIEnv结构体。这样就可以在后台线程中回调Java函数了</li>
+<li>另外，后台线程退出前，需要调用JavaVM的DetachCurrentThread函数来释放对应的资源。</li>
+</ol>
+</li>
+</ol>
+<h2 id="深入理解init"><a href="#深入理解init" class="headerlink" title="深入理解init"></a>深入理解init</h2>]]></content>
+      
+        <categories>
+            
+            <category> 技术笔记 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Android </tag>
             
         </tags>
         
